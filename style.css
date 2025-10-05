@@ -284,6 +284,25 @@ h4 {
 }
 
 
+/* Section 04 */
+
+.app-container {
+    background: var(--hint-yellow);
+    padding: 3rem 6rem;
+    border-radius: 3rem;
+}
+
+.app-container .content h2 {
+    font-size: 4.5rem;
+}
+
+
+
+.app-container .image-container img {
+    width: 25rem;
+}
+
+
 /* Footer Styling */
 
 
@@ -331,5 +350,13 @@ h4 {
     /* Section 01 */
     h2 {
         font-size: 3rem;
+    }
+
+    /* Section 04 */
+    .app-container {
+        padding: 2.2rem;
+    }
+    a.app-container .content h2 {
+        font-size: 3.5rem;
     }
 }
